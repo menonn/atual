@@ -1,68 +1,337 @@
 <html>
 
-<head><title>App 6rtdrj</title>
-
+<head>
+<link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 <style>
+
 body {
-	background:#00BEC5;
-}
-
-.logo {
-	margin:0 auto;
-	width:160px;
-	height:100px;
-}
-
-.lista {
-	margin:0 auto;
-}
-
-.lista {
-	margin-top:30px;
-
-}
-
-.lista li {
-	width:120px;
-	font-size:18px;
-	height:auto;
-	padding:10px 25px;
-	list-style-type:none;
-	background:#DDFEFF;
-	text-align:center;
-}
-
-.lista li.middle {
-	border-top:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-}
-
-.lista li a {
-	text-decoration:none;
+	max-width:320px;
+	max-height:140px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0
+	bottom:0;
+	font-size:10px;
 	color:#666;
+	font-family: 'Gilda Display', serif;
+	
+}
+
+nav {
+	margin-left:-40px;	
+	width:320px;
+}
+
+nav ul li {
+	display:inline;
+	font-weight:bold;
+	text-align:center;
+	font-size:1.4em;
+}
+
+nav ul li.t{
+	padding:0 6px;
+}
+
+nav ul li.m{
+	padding:0 10px;
+}
+
+nav ul li.s{
+	padding:0 40px;
+}
+
+
+
+a {
+color:#666;
+font-weight:bold;
+text-decoration:none;
+}
+
+a:hover {
+
+}
+
+.trimestre {
+width:320px;
+height:140px;
+margin-bottom:10px;
+-webkit-box-shadow: 3px 4px 14px -3px rgba(0,0,0,0.43);
+-moz-box-shadow: 3px 4px 14px -3px rgba(0,0,0,0.43);
+box-shadow: 3px 4px 14px -3px rgba(0,0,0,0.43);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+	.um {
+		background:#FFAFB0;
+	}
+	
+	.dois {
+		background:#A4D9E8;
+	}
+	
+	.tres {
+		background:#C6E3A5;
+	}
+	
+.numerot {
+	font-size:8.8em;
+	position:relative;
+	top:10%;
+	left:4.3%;
+	float:left;
+	
+}
+
+.numerom {
+	border-left:1px dotted #fff;
+	border-right:1px dotted #fff;
+	float:left;
+	position:relative;
+	left:8%;
+	max-width:57px;
+	height:140px;
+	overflow:hidden;
+	
+}
+
+ul {
+	list-style-type:none;
+
+}
+
+.numerom ul li.bged {
+	background:#ccc;
+}
+
+.numerom  ul li{
+	font-size:2.6em;
+	margin-left:-280%;
+	
+	padding:0 131% 0 150%;
+	
+}
+.numerom ul li.nm.segundo {
+	margin-top:-2px;
+	padding-bottom:1px;
+}
+.numerom ul li.nd.quarto {
+	padding-bottom:7.5%;
+	height:40px;
+}
+
+.numeros {
+	float:left;
+	position:relative;
+	left:8%;
+	width:190px;
+	height:140px;
+	
+}
+
+
+.numeros ul li {
+	display:inline;
+	font-size:2.6em;
+	line-height:80%;
+	position:relative;
+	left:-20%;
+	margin-left:7px;
 }
 	
+	.nd.first {
+		padding-top:7.5%;
+		margin-top:0;
+		padding-bottom:2%;
+		
+		
+	}
+	.nm {
+		padding-top:2.8%;
+		padding-bottom:2.8%;
+		margin-top:-5.5%;
+		
+	}	.segundo {
+			background:#D3E2F5;
+		}
 	
+	.nm.terceiro {
+		padding-top:2.8%;
+		padding-bottom:2.8%;
+	}
+	
+	.nd.quarto {
+		padding-top:2%;
+		padding-bottom:7.5%;
+		margin-top:-5.5%;
+		background:#D3E2F5;
+		-webkit-border-bottom-right-radius: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
 </style>
+<title></title>
 
 </head>
-
 <body>
 
-<img width="160" height="100" class="logo" src="http://www.6rtdrj.com.br/wp-content/themes/6rtdrj/images/logo.png" />
 
-<div id="width:120px;margin:0 auto;">
+<nav>
+<ul>
+<li class="t">Trimestre</li>
+<li class="m">Mes</li>
+<li class="s">Semana</li>
+</nav>
+<section class="trimestre um">
+	<div class="numerot">
+	1
+	</div>
 
-<ul class="lista">
 
-<li><a href="http://www.6rtdrj.com.br/novo/simulador/form_simulador.php?tipo=notificacao">Doc. com valor</a></li>
-<li class="middle"><a href="http://www.6rtdrj.com.br/novo/simulador/form_simulador.php?tipo=semvalor">Doc. sem valor</a></li>
-<li><a href="http://www.6rtdrj.com.br/novo/simulador/form_simulador.php?tipo=notificacao">Notificacao</a></li>
+<div class="numerom">
 
-</ul>
+	<ul>
+		<li class="nd first">0</li>
+		<li class="nm segundo">1</li>
+		<li  class="nm terceiro">2</li>
+		<li class="nd quarto">3</li>
+	</ul>
 
 </div>
 
-</body>
+<div class="numeros">
+	<ul class="nd first">
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+	</ul>
 
+	<ul class="nm segundo">
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li><a href="#">7</a></li>
+		<li><a href="#">8</a></li>
+	</ul>
+
+	<ul class="nm terceiro">
+		<li><a href="#">9</a></li>
+		<li><a href="#">10</a></li>
+		<li><a href="#">11</a></li>
+		<li><a href="#">12</a></li>
+	</ul>
+
+	<ul class="nd quarto">
+		<li><a href="#">13</a></li>
+		
+	</ul>
+</div>
+
+</section>
+
+<section class="trimestre dois">
+<div class="numerot">
+2
+</div>
+
+
+<div class="numerom">
+
+	<ul>
+		<li class="nd first">3</li>
+		<li class="nm segundo">4</li>
+		<li  class="nm terceiro">5</li>
+		<li class="nd quarto">6<li>
+	</ul>
+
+</div>
+
+<div class="numeros">
+	<ul class="nd first">
+		<li><a href="#">14</a></li>
+		<li><a href="#">15</a></li>
+		<li><a href="#">16</a></li>
+		<li><a href="#">17</a></li>
+	</ul>
+
+	<ul class="nm segundo">
+		<li><a href="#">18</a></li>
+		<li><a href="#">19</a></li>
+		<li><a href="#">20</a></li>
+		<li><a href="#">21</a></li>
+	</ul>
+
+	<ul class="nm terceiro">
+		<li><a href="#">22</a></li>
+		<li><a href="#">23</a></li>
+		<li><a href="#">24</a></li>
+		<li><a href="#">25</a></li>
+	</ul>
+
+	<ul class="nd quarto">
+		<li><a href="#">26</a></li>
+		<li><a href="#">27</a></li>
+	</ul>
+</div>
+
+
+</section>
+
+<section class="trimestre tres">
+<div class="numerot">
+3
+</div>
+
+
+<div class="numerom">
+
+	<ul>
+		<li class="nd first">6</li>
+		<li class="nm segundo">7</li>
+		<li  class="nm terceiro">8</li>
+		<li class="nd quarto">9</li>
+	</ul>
+
+</div>
+
+<div class="numeros">
+	<ul class="nd first">
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+	</ul>
+
+	<ul class="nm segundo">
+		<li><a href="#">5</a></li>
+		<li><a href="#">6</a></li>
+		<li><a href="#">7</a></li>
+		<li><a href="#">8</a></li>
+	</ul>
+
+	<ul class="nm terceiro">
+		<li><a href="#">9</a></li>
+		<li><a href="#">10</a></li>
+		<li><a href="#">11</a></li>
+		<li><a href="#">12</a></li>
+	</ul>
+
+	<ul class="nd quarto">
+		<li><a href="#">13</a></li>
+		<li><a href="#">14</a></li>
+		<li><a href="#">15</a></li>
+		<li><a href="#">16</a></li>
+	</ul>
+</div>
+
+</section>
+
+
+
+</body>
 </html>
